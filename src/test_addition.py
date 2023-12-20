@@ -8,5 +8,5 @@ def test_add():
 
 
 def test_string():
-	with pytest.raises(TypesError):
+	with pytest.raises(TypeError):
 		add("string", 4)
